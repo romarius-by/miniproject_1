@@ -6,5 +6,6 @@ namespace miniproject_1
 {
     interface IDescribe
     {
+        void Describe();
     }
 }

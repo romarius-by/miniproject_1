@@ -6,6 +6,7 @@ namespace miniproject_1
 {
     interface IAdd
     {
-        void Add(string name, int square);
+        void AddFurniture(string name, int square);
+        void AddLamp(string name, int luminosity);
     }
 }
