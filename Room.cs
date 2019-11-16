@@ -25,7 +25,7 @@ namespace miniproject_1
             FreeSpace = Square;
         }
 
-        public void AddFurniture(string name, int square)
+        public void Add(string name, int square)
         {
             try
             {
@@ -43,11 +43,11 @@ namespace miniproject_1
             }
         }
 
-        public void AddLamp(string name, int luminosity)
+        public void Add(int luminosity)
         {
             try
             {
-                RoomLamps.Add(new Lamp(name, luminosity));
+                RoomLamps.Add(new Lamp(luminosity));
                 RoomLight += luminosity;
                 if (RoomLight > 2000)
                 {

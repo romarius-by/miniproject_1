@@ -6,11 +6,9 @@ namespace miniproject_1
 {
     public class Lamp
     {
-        public string Name;
         public int Luminosity;
-        public Lamp(string Name, int Luminosity)
+        public Lamp(int Luminosity)
         {
-            this.Name = Name;
             this.Luminosity = Luminosity;
         }
     }

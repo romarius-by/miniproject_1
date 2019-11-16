@@ -36,7 +36,7 @@ namespace miniproject_1
                 }
                 foreach (var lamp in room.Value.RoomLamps)
                 {
-                    Console.WriteLine(lamp.Name + " Светимость: " + lamp.Luminosity + " лм");
+                    Console.WriteLine("Источник света " + " Светимость: " + lamp.Luminosity + " лм");
                 }
             }
         }

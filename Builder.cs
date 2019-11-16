@@ -10,14 +10,14 @@ namespace miniproject_1
         {
             Building bigHouse = new Building();
             bigHouse.AddRoom("Кабинет", 150, 2);
-            bigHouse.GetRoom("Кабинет").AddFurniture("Стол", 15);
-            bigHouse.GetRoom("Кабинет").AddFurniture("Стул", 10);
-            bigHouse.GetRoom("Кабинет").AddLamp("Лампочка", 200);
-            bigHouse.GetRoom("Кабинет").AddLamp("Торшер", 300);
+            bigHouse.GetRoom("Кабинет").Add("Стол", 15);
+            bigHouse.GetRoom("Кабинет").Add("Стул", 10);
+            bigHouse.GetRoom("Кабинет").Add(200);
+            bigHouse.GetRoom("Кабинет").Add(300);
             bigHouse.AddRoom("Гостинная", 100, 3);
-            bigHouse.GetRoom("Гостинная").AddFurniture("Телевизор", 25);
-            bigHouse.GetRoom("Гостинная").AddFurniture("Журнальный столик", 18);
-            bigHouse.GetRoom("Гостинная").AddFurniture("Фикус", 10);
+            bigHouse.GetRoom("Гостинная").Add("Телевизор", 25);
+            bigHouse.GetRoom("Гостинная").Add("Журнальный столик", 18);
+            bigHouse.GetRoom("Гостинная").Add("Фикус", 10);
 
             bigHouse.Describe();
         }
